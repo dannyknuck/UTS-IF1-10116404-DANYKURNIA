@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_daily_activity"
+            android:icon="@drawable/ic_daily_activity"
+            android:title="Daily Activity" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_gallery"
+            android:title="Gallery" />
+        <item
+            android:id="@+id/nav_music"
+            android:icon="@drawable/ic_music_video"
+            android:title="Music dan Video" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_profil"
+            android:title="Profile"></item>
+    </group>
+
+
+</menu>

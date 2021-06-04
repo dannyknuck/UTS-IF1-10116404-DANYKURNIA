@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/color6">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="176dp"
+    android:layout_gravity="top"
+    android:background="@color/color7"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <TextView
+        android:id="@+id/textheader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="14dp"
+        android:layout_toRightOf="@id/imageview_header"
+        android:paddingTop="8dp"
+        android:text="Dany Kurnia" />
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:id="@+id/imageview_header"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_gravity="center"
+        android:src="@drawable/pictme"
+        app:civ_border_color="@android:color/white"
+        app:civ_border_width="2dp"
+        app:civ_shadow="true"
+        app:civ_shadow_color="@android:color/white"
+        app:civ_shadow_radius="1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textheader"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="8dp"
+        android:layout_toRightOf="@id/imageview_header"
+        android:paddingTop="8dp"
+        android:text="10116404" />
+</RelativeLayout>
+
+</LinearLayout>
